@@ -8,8 +8,11 @@ There are different types of hill-climbing search techniques that can be used to
 The general hill-climbing search has less percent of success that is around 14%. 
 So, to optimize this search there are a couple of updated searches like Hill Climbing sideways move and Random Restart Hill Climbing.
   • Hill climbing search
+  
   • Hill climbing search with sideways movement allowed
+  
   • Random Restart hill climbing search
+  
   • Random restart hill climbing search with sideways movement allowed
   
 # Hill Climbing with a sideways move: 
@@ -48,3 +51,100 @@ This is the most effective algorithm in most of the cases.
     4. print_random_restart_stats will print report of the random restart hill climbing search with and without sideways movement.
 
 # Get N, Iterations and sideways movement as input from the user and run the above classes.
+
+# Summary Statistics:
+
+# Sample Input 1:
+    Please enter a value for N(number of queens): 5
+    Please enter a value for number of iterations: 100
+    Please enter a value for the maximum sideways moves allowed: 10
+# Results of sample Input 1:
+
+   Hill climbing Search Analysis
+   =============================
+    N(number of queens) value: 5 (i.e 5 x 5 )
+    Total number of Runs: 100
+    Successful Runs: 62
+    Success Rate: 62.0 %
+    Average Steps to success: 3.56
+    Failure Runs: 38
+    Failure Rate: 38.0 %
+    Average Steps to failure: 2.63
+    Flat local maxima: 38
+    
+  Hill climbing Search with sideways movement Analysis
+  ====================================================
+    N(number of queens) value: 5 (i.e 5 x 5 )
+    Total number of Runs: 100
+    Successful Runs: 100
+    Success Rate: 100.0 %
+    Average Steps to success: 4.11
+    Failure Runs: 0
+    Failure Rate: - %
+    Average Steps to failure: -
+    Flat local maxima: 0
+    
+  Random restart hill climbing search Analysis
+  ============================================
+    N(number of queens) value: 5 (i.e 5 x 5 )
+    Total number of Runs: 100
+    Average Restarts: 1.48
+    Average Steps on last restart: 3.46
+    Average steps on all restarts: 4.61
+    
+  Random restart hill climbing search with sideways movement Analysis
+  ===================================================================
+    N(number of queens) value: 5 (i.e 5 x 5 )
+    Total number of Runs: 100
+    Average Restarts: 1.0
+    Average Steps on last restart: 4.12
+    Average steps on all restarts: 4.12
+    
+# Sample Input 2:
+    Please enter a value for N(number of queens): 8
+    Please enter a value for number of iterations: 500
+    Please enter a value for the maximum sideways moves allowed: 100
+# Results of sample Input 2:
+
+  Hill climbing Search Analysis
+   =============================
+    N(number of queens) value: 8 (i.e 8 x 8 )
+    Total number of Runs: 500
+    Successful Runs: 55
+    Success Rate: 11.0 %
+    Average Steps to success: 5.25
+    Failure Runs: 445
+    Failure Rate: 89.0 %
+    Average Steps to failure: 4.00
+    Flat local maxima: 442
+    
+  Hill climbing Search with sideways movement Analysis
+  ====================================================
+    N(number of queens) value: 8 (i.e 8 x 8 )
+    Total number of Runs: 500
+    Successful Runs: 469
+    Success Rate: 93.8 %
+    Average Steps to success: 19.54
+    Failure Runs: 31
+    Failure Rate: 6.2 %
+    Average Steps to failure: 60.03
+    Flat local maxima: 17
+    
+  Random restart hill climbing search Analysis
+  ============================================
+    N(number of queens) value: 8 (i.e 8 x 8 )
+    Total number of Runs: 500
+    Average Restarts: 7.056
+    Average Steps on last restart: 5.088
+    Average steps on all restarts: 29.642
+    
+  Random restart hill climbing search with sideways movement Analysis
+  ===================================================================
+    N(number of queens) value: 8 (i.e 8 x 8 )
+    Total number of Runs: 500
+    Average Restarts: 1.252
+    Average Steps on last restart: 19.186
+    Average steps on all restarts: 24.052
+    
+ 
+
